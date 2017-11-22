@@ -1,0 +1,14 @@
+{
+  "name": "ngx-mobile-menu",
+  "version": "0.0.1",
+  "repository": "https://github.com/epenance/ngx-mobile-menu.git",
+  "author": "Martin Hobert <info@dosh.dk>",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "@angular/core": "^5.0.2",
+    "@angular/common": "^5.0.2",
+    "@angular/cdk": "^5.0.0-rc.1",
+    "@angular/animations": "^5.0.2"
+  }
+}
