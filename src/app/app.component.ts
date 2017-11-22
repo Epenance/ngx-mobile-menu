@@ -9,7 +9,7 @@ import { MobileMenuService } from '../../ngx-mobile-menu/src/mobile-menu/mobile-
 export class AppComponent implements OnInit{
   title = 'app';
 
-  constructor(private mobileMenu: MobileMenuService, ) {}
+  constructor(private mobileMenu: MobileMenuService) {}
 
   ngOnInit() {
 

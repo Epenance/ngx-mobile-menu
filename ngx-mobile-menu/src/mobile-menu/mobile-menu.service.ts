@@ -53,7 +53,7 @@ export class MobileMenuService {
   private createInjector(config: MobileMenuOverlayConfig, mobileMenuRef: MobileMenuRef) {
     const injectionTokens = new WeakMap();
 
-    injectionTokens.set(mobileMenuRef, mobileMenuRef);
+    injectionTokens.set(MobileMenuRef, mobileMenuRef);
     injectionTokens.set(MOBILE_MENU_DATA, config.data);
 
     return new PortalInjector(this.injector, injectionTokens);
